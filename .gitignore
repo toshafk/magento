@@ -1,0 +1,95 @@
+/.idea
+/magicento.phpstorm.meta.php
+/nbproject
+/error.log
+/logs
+/log
+  
+/.metadata
+/.project
+/.settings
+  
+/includes/*
+!/includes/.htaccess
+!/includes/config.php
+  
+/media
+/media/*
+!/media/.htaccess
+  
+/var/*
+!/var/.htaccess
+!/var/package/
+!/var/patches/
+/var/package/*
+  
+/downloader/.cache
+/downloader/cache.cfg
+/downloader/connect.cfg
+  
+/sitemaps
+/sitemap
+/sitemap.xml
+  
+robots.txt
+/robots/**/robots.txt
+  
+/app/etc/local.xml
+  
+/.cache
+*.swp
+  
+# OS generated files #
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+.Trashes
+  
+# WP #
+/wordpress/wp_config.php
+/wordpress/wp-config.php
+/wordpress/sitemap.xml
+/wordpress/wp-content/uploads/*
+/wordpress/wp-content/upgrade/*
+/wordpress/wp-content/cache/*
+ 
+/wp/wp_config.php
+/wp/wp-config.php
+/wp/sitemap.xml
+/wp/wp-content/uploads/*
+/wp/wp-content/upgrade/*
+/wp/wp-content/cache/*
+
+# Custom caches #
+/lib/ClickTale/Cache/*
+/lib/ClickTale/Logs/*
+
+#
+#Import ignores from SVN
+#
+
+
+# /
+/.htaccess
+/node_modules
+/robots.txt
+/.idea
+/sitemap*
+/maintenance*
+/google*.html
+
+
+
+# /media/cme/certificates/
+/media/cme/certificates/*
+
+# /media/cme/downloads/
+/media/cme/downloads/*
+
+# /media/wysiwyg/
+/media/wysiwyg/.thumbs
+/media/wysiwyg/*
+
+# /service/threadpool/
+/service/threadpool/locks
